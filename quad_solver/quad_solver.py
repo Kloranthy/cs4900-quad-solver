@@ -2,10 +2,6 @@
 from math import sqrt
 
 
-# TODO : fix muller method usage
-# I think it is supposed to be used in the discrim > 0 part
-# instead of in the discrim == 0 part
-
 
 
 STABILITY_CHANGE_IN_ABC = 0.001
@@ -81,7 +77,7 @@ def check_stable(
   
   decreased_result = calculate_roots( a, b, c )
   
-
+  return
 # check_stable
 
 
@@ -136,16 +132,6 @@ def calculate_roots(
     roots = [ x1, x1 ]
 
   # discriminant == 0 and a != 0
-  elif ( ( discriminant == 0 ) and ( c != 0 ) ):
-
-    x1 = (
-      ( 2 * c )
-      / -b
-    )
-
-    roots = [ x1, x1 ]
-
-  # discriminant == 0 and c != 0
 
 
   return roots
