@@ -1,0 +1,20 @@
+
+he said there should be a warning if there was
+more than 4 digits of precision on the input
+  ex : 3.000156 for a, b, or c
+
+
+this can be done in a future release
+
+
+
+he also wants us to check the values of a, b, c
+in *both* the validate_input and solve functions
+  in case the solve function gets used
+  by another project that does not use
+  the validate_input function before it
+
+  maybe we could have a collection of predicate functions
+  that are imported by both validate_input and solve
+  to avoid repeated code
+
