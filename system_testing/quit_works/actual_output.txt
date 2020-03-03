@@ -1,0 +1,9 @@
+Welcome to Qsolver!
+This program allows you to enter the coefficients of a quadratic
+function, and finds the real roots of that function if any exist.
+Please enter input as space seperated numerical values.
+please enter a, b, c : 
+Solving: 1.0x^2 + 3.0x + 2.0 = 0
+x1 : -2.0, x2 : -1.0
+please enter a, b, c : 
+Goodbye!
