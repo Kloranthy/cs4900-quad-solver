@@ -9,7 +9,12 @@ STABILITY_CHANGE_IN_ABC = 0.001
 STABILITY_MAX_X_CHANGE = 0.1
 
 
-
+def intro_prompt():
+    print("Welcome to Qsolver!")
+    print("This program allows you to enter the coefficients of a quadratic")
+    print("function, and finds the real roots of that function if any exist.")
+    print("Please enter input as space seperated numerical values.")
+  
 
 def prompt_for_abc():
 
@@ -64,6 +69,8 @@ def validate_input(
 
   return results
 # validate_input
+
+
 
 
 
@@ -177,6 +184,14 @@ def display_calculation_results(
 # display_calculation_results
 
 
+def solve(**data):
+    print(f"Solving: { data['a'] }x^2 + { data['b'] }x + { data['c'] } = 0")
+
+    calculation_results = calculate_roots( data['a'], data['b'], data['c'] )
+
+    message = display_calculation_results( calculation_results )
+
+    print( message )
 
 
 def __main__():
