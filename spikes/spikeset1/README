@@ -1,0 +1,14 @@
+This directory contains 2 spikes, implemented in the following files
+
+quadsolver.py:
+    this does not solve the equation but rather explores ways of validating user input and looking for exit condition(s)
+    run with
+        make run
+
+bufferror.py:
+    this is a clone of quadsolver.py that puts a 3 second sleep after each user userinput to give opportunity to put user input into buffer.
+    Having UI in input buffer gives opportunity to experiment with buffer flushing. HOWEVER, python on linux does not allow for much
+    interaction with the buffer. It seems there are packages such as 'curses' which use C functions to handle ui and would therefore allow
+    for input buffer flushing.
+    run with:  
+        make bufferror

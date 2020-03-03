@@ -1,0 +1,3 @@
+this spike demonstrates floating point accuracy/errors. There is no emphasis on user input in this spike, it is purely for examining ieee floating point
+to run
+    python3 floats.py
