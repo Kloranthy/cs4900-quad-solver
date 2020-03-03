@@ -1,7 +1,16 @@
 
+testing : [
 
-https://docs.python.org/3/library/unittest.html
+  https://docs.python.org/3/library/unittest.html
 
-https://docs.python.org/3/library/doctest.html
+  https://docs.python.org/3/library/doctest.html
+]
 
+
+IEEE floating point numbers : [
+
+  https://docs.python.org/3/tutorial/floatingpoint.html
+
+  https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex
+]
 
