@@ -27,7 +27,8 @@ def prompt_for_abc():
 
 def read_input_for_abc():
 
-  abc_line = input()
+  abc_line = input().strip()
+  print( f'"{abc_line}"' )
 
   return abc_line
 # read_input_for_abc

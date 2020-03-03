@@ -4,10 +4,16 @@ def validate(input):
         'a' : 0.0, 'b' : 0.0, 'c' : 0.0,
         'quit': False
     }
+    
+    #print( f'input in validate : "{input}"' )
+
     #check for quit condition
     if(input == "quit"):
         result['quit'] = True
-     #   return result
+        print( f'quit detected in {input}' )
+        return result
+    else :
+        print( f'quit not detected in {input}' )
     
     #check for proper input format
     try:
