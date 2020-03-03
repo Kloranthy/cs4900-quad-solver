@@ -6,7 +6,6 @@ test :
 
 
 clean :
-	find . | grep -E "/__pycache__/$" | xargs rm -rf
-	find . | grep -E "/__pycache__/" | xargs rm
+	find . | grep -E "__pycache__$" | xargs rm -rf
 
 
