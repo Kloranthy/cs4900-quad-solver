@@ -14,3 +14,8 @@ IEEE floating point numbers : [
   https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex
 ]
 
+
+asterisk prefixed dicts in function parameters : [
+
+  https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/
+]
