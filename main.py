@@ -1,5 +1,7 @@
-from quad_solver.quad_solver import intro_prompt, prompt_for_abc, read_input_for_abc, solve
-from quad_solver.validate import validate
+
+from .quad_solver import intro_prompt, prompt_for_abc, read_input_for_abc, solve
+
+from .validate import validate
 
 
 def main():
@@ -18,7 +20,7 @@ def main():
 
         if( result['valid'] == True ): #if valid input and not quit
             
-            solve( **result )
+            solve( result )
 
         else: #not quit but not valid
 

@@ -28,7 +28,7 @@ def prompt_for_abc():
 def read_input_for_abc():
 
   abc_line = input().strip()
-  print( f'"{abc_line}"' )
+  #print( f'"{abc_line}"' )
 
   return abc_line
 # read_input_for_abc
@@ -108,6 +108,7 @@ def calculate_roots(
     )
   ):
 
+    print( 'discim < 0' )
     return roots
   # no real roots
 
@@ -185,14 +186,24 @@ def display_calculation_results(
 # display_calculation_results
 
 
-def solve(**data):
-    print(f"Solving: { data['a'] }x^2 + { data['b'] }x + { data['c'] } = 0")
 
-    calculation_results = calculate_roots( data['a'], data['b'], data['c'] )
+def solve( data ):
+
+    a = data[ 'a' ]
+    b = data[ 'b' ]
+    c = data[ 'c' ]
+
+    print(f"Solving: { a }x^2 { '+' if ( b >= 0 ) else '-' } { abs( b ) }x { '+' if ( c >= 0 ) else '-' } { abs( c ) } = 0")
+
+    calculation_results = calculate_roots( a, b, c )
 
     message = display_calculation_results( calculation_results )
 
     print( message )
+
+    return
+# solve
+
 
 
 def __main__():
