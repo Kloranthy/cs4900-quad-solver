@@ -1,7 +1,10 @@
+
 run :
-	python3 main.py
+	python3 -m main
+
 
 test :
+	python3 --version
 	python3 -m unittest
 
 
