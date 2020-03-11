@@ -1,0 +1,52 @@
+
+welcome_prompt = (
+  f'quad_solver v{ qs_version }'
+  f'license { qs_license }'
+  f'{ program_description }'
+  '--------------------------------'
+  'type "help" for help'
+)
+
+
+
+directory structure :
+  src/
+    qsolver/ ( main )
+    validate/
+    read_line/
+    print_line/
+    solve/
+    result/ ( messages for validate/solve result codes )
+  system_testing/
+
+
+
+have to check the digits of precision when it is in string form
+  put that off until release 2
+
+also put checking stability off until release 2
+
+
+readline and other functions should return an int flag for result type
+  ie : 0 for good, 1+ for errors
+
+
+all functions must validate input/params
+  ie : check line is not null, coefficients are not NaN or Infinity
+
+
+all functions must have documentation covering
+  what the function does
+  param info ( what it accepts )
+  return info ( what it returns )
+
+
+logging to file
+
+
+no IO in utility functions
+  ie : print ( console logging )
+
+
+he wants the unit tests in the module directories ( maybe? )
+  and system testing in a sibling directory to src

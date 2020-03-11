@@ -19,3 +19,25 @@ asterisk prefixed dicts in function parameters : [
 
   https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/
 ]
+
+
+generator functions : [
+
+  https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/
+]
+
+
+test directory structure : [
+
+  https://gist.github.com/tasdikrahman/2bdb3fb31136a3768fac
+
+  https://stackoverflow.com/questions/61151/where-do-the-python-unit-tests-go
+]
+
+
+main of package : [
+
+  https://docs.python.org/3/library/__main__.html
+  
+  https://stackoverflow.com/questions/4042905/what-is-main-py
+]
