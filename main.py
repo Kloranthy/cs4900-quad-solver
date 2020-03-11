@@ -1,7 +1,7 @@
 
-from .quad_solver import intro_prompt, prompt_for_abc, read_input_for_abc, solve
+from quad_solver.quad_solver import intro_prompt, prompt_for_abc, read_input_for_abc, solve
 
-from .validate import validate
+from quad_solver.validate import validate
 
 
 def main():
