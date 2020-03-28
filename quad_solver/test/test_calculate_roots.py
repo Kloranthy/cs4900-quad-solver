@@ -2,7 +2,7 @@
 import unittest
 
 
-from quad_solver.quad_solver import calculate_roots
+from quad_solver.calculate_roots import calculate_roots
 
 
 

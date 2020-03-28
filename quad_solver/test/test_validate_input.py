@@ -2,7 +2,7 @@
 import unittest
 
 
-from quad_solver.quad_solver import validate_input
+from quad_solver.validate import validate
 
 
 
@@ -61,7 +61,7 @@ class TestValidateInput( unittest.TestCase ):
 
       print( input )
 
-      actual_result = validate_input( input )
+      actual_result = validate( input )
 
       print( f"expect_valid : { expect_result[ 'valid' ] }, actual_valid : { actual_result[ 'valid' ] }" )
 
@@ -85,7 +85,7 @@ class TestValidateInput( unittest.TestCase ):
 
       print( input )
 
-      actual_result = validate_input( input )
+      actual_result = validate( input )
 
       print( f"expect_valid : { expect_result[ 'valid' ] }, actual_valid : { actual_result[ 'valid' ] }" )
 
