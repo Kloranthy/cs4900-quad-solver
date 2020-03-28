@@ -23,7 +23,7 @@ do
 
   #cat "./system_testing/$test_input_file"
 
-  python3 -m main < "./system_testing/$test_input_file" > "./system_testing/$actual_output_file"
+  python3 -m quad_solver < "./system_testing/$test_input_file" > "./system_testing/$actual_output_file"
 
   #cat "./system_testing/$actual_output_file"
 

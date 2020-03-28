@@ -8,7 +8,7 @@ cd ..
 
 #cat "./system_testing/$1"
 
-python3 -m main < "./system_testing/$1"
+python3 -m quad_solver < "./system_testing/$1"
 
 cd ./system_testing
 

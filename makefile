@@ -1,6 +1,6 @@
 
 run :
-	python3 -m main
+	python3 -m quad_solver
 
 
 test :
